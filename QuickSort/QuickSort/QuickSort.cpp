@@ -5,7 +5,7 @@
 #include <iostream>
 #include "GERA_VETOR.h"
 #include "quicksort.h"
-#define tamanho 100
+#define tamanho 50000
 using namespace std;
 
 int main()
