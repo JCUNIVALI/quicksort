@@ -8,7 +8,7 @@ template <typename T>
 void Teste_Quick_Sort(T vetor, int tamanho) {
 	srand(time(NULL));
 	for (int x = 0;x < tamanho;x++) {
-		vetor[x] = rand() % 100000;
+		vetor[x] = rand() % (tamanho+tamanho);
 		cout << vetor[x] << "\t";
 	}
 	cout << endl << endl;
@@ -16,6 +16,5 @@ void Teste_Quick_Sort(T vetor, int tamanho) {
 	for (int x = 0;x < tamanho;x++) {
 		cout << vetor[x] << "\t";
 	}
-
 }
 #endif
